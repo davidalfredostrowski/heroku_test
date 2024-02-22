@@ -1,4 +1,18 @@
 heroku cli wants NODE 16
+ 1  ls
+    2  sudo apt-get update
+    3  sudo apt-get install -y ca-certificates curl gnupg
+    4  sudo mkdir -p /etc/apt/keyrings
+    5  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    6  NODE_MAJOR=16
+    7  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+    8  sudo apt-get update
+    9  sudo apt-get install nodejs -y
+   10  node -v
+   11  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   12  sudo npm install -g heroku
+   13  sudo npm install -g heroku --force
+   14  history
 
 
 
