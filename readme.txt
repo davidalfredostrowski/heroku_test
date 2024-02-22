@@ -1,4 +1,8 @@
-  1  git
+heroku cli wants NODE 16
+
+
+
+1  git
     2  curl https://cli-assets.heroku.com/install.sh | sh
     3  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
     4  npm install -g heroku
