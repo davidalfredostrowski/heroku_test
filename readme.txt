@@ -1,5 +1,9 @@
 https://forum.freecodecamp.org/t/building-a-node-js-application-using-docker/463269
 https://stackoverflow.com/questions/26595874/heroku-src-refspec-master-does-not-match-any
+https://help.heroku.com/LGKL6LTN/how-do-i-delete-destroy-a-heroku-application
+
+
+
 
  1  ls
     2  sudo apt-get update
