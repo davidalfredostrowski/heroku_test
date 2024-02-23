@@ -83,6 +83,25 @@ heroku cli wants NODE 16
    47  history
 
 
+   90  git add -A
+   91  git init
+   92  git add -A
+   93  git commit -m "init"
+   94  ls
+   95  rm test.yml
+   96  ls
+   97  git init
+   98  git add README.md
+   99  git add -A
+  100  git commit -m "init"
+  101  vi junk.txt
+  102  git init
+  103  git add -A
+  104  git commit -m "init"
+  105  heroku git:remote -a alfredthree
+  106  git push heroku master
+  107  git push heroku HEAD:master
+  108  history
 
 
 
